@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 
+import 'home_page.dart';
+
 void main() {
+  // ignore: prefer_const_constructors
   runApp(MyApp());
 }
 
@@ -9,14 +12,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Material(
-        child: Center(
-          child: Container(
-            child: Text("Welcome to my ecommerce app"),
-          ),
-        ),
-      ),
+    // int days = 30;
+    //num used for all number
+    //var everything
+
+    return const MaterialApp(
+      home: home_page(),
     );
   }
 }
